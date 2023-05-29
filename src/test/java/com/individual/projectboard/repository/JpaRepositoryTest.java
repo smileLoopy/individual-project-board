@@ -37,7 +37,7 @@ class JpaRepositoryTest {
         // When
         List<Article> articles = articleRepository.findAll();
         // Then
-        assertThat(articles).isNotNull().hasSize(1);
+        assertThat(articles).isNotNull().hasSize(123);
     }
 
     @DisplayName("insert 테스트")
